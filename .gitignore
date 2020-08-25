@@ -1,2 +1,39 @@
 # Ignore build-directory
 build
+
+# compiled files:
+*.o
+*.so
+*.a
+# temporary files:
+*.gz
+*.pyc
+*.bak
+*.swp
+*~
+.*~
+*.old
+tmp*
+temp*
+.#*
+\#*
+# tex files:
+*.log
+*.dvi
+*.aux
+*.blg
+*.idx
+*.nav
+*.out
+*.fls
+*.fdb_latexmk
+*.toc
+*.snm
+*.vrb
+# eclipse files:
+*.cproject
+*.project
+# misc:
+*.DS_Store
+*.git
+*.xyz

@@ -1,0 +1,1 @@
+/cluster/software/GCCcore/9.3.0/bin/c++ -fPIC  -std=c++11 -O2  -Wl,--no-as-needed -shared -Wl,-soname,libarmadillo.so.9 -o libarmadillo.so.9.870.2 CMakeFiles/armadillo.dir/src/wrapper1.cpp.o CMakeFiles/armadillo.dir/src/wrapper2.cpp.o  -Wl,-rpath,/cluster/software/OpenBLAS/0.3.9-GCC-9.3.0/lib: /cluster/software/OpenBLAS/0.3.9-GCC-9.3.0/lib/libopenblas.so 
